@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable = no">
+    <meta charset="utf-8">
+	<title>AlailBooking</title>
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+	<link rel="stylesheet"  href="css/bootstrap-rtl.css">
+	<link rel="stylesheet"  href="css/bootstrap-flipped.css">
+	<link rel="stylesheet"  href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css" media="all">
+	<link rel="stylesheet"  href="css/datepicker.css">
+	<link rel="stylesheet"  href="css/datepickerstyle.css">
+	<link rel="stylesheet"  href="css/style.css">
+
+</head>
+<body>
+<div class="website-wrapper" id="all_wrapper">
+	<div class="container-fluid main_header hidden-xs hidden-sm">
+		<div class="left_logo">
+			<div class="logo">
+				<a href="#">
+					<img class="img-responsive" src="images/logo-ar.png">
+				</a>
+			</div><!--End logo-->
+		</div><!--End left_logo-->
+
+		<div class="right_menu">
+			<ul class="list-inline">
+				<li class="dropdown">
+				   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/ques.png">
+				   </a>
+				    <ul class="dropdown-menu">
+					   <li><a href="add_property.html">اضافة عقار</a></li>
+					   <li><a href="contact.html">إتصل بنا</a></li>
+				    </ul>
+				</li>
+				<li class="dropdown">
+				   <a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/sar-flag.png">
+				   </a>
+				   <ul class="dropdown-menu">
+				   	 <li><a href="#"><img src="images/United-States-of-America.png"></a></li>
+				   </ul>
+                  
+				</li>
+				<li class="dropdown">
+				   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ريال
+				   </a>
+				   <ul class="dropdown-menu">
+				   	   <li><a href="#">ريال</a></li>
+					   <li><a href="#">دولار</a></li>
+				   </ul>
+				</li>
+				<li><a href="#"><i class="fa fa-heart"></i> قوائمي</a></li>
+				<li><a href="Discover_your_destination.html"><img src="images/recomded.png"></a></li>
+				<li><a href="#">حجوزاتي</a></li>
+				<li><button>تسجيل عضوية</button></li>
+				<li><button>الدخول</button></li>
+
+			</ul>
+		</div> <!-- End right menu -->
+
+	</div><!--End main_header for large screens-->
+
+	<!--start sub-header under main_header white background-->
+
+	    <div class="add_property hidden-xs hidden-sm">
+			<ul class="list-inline">
+				<li class="main_home"><a href="index.html">الرئيسية</a></li>
+				<li class="active"> > فيلا بالمملكة العربية السعودية (مكة المكرمة)</li>
+			</ul>
+		</div>
+	<!--End sub_header under main_header white background -->
+
+	<!--Start main_header_mobil-->
+	<div class="container-fluid main_header_mobil hidden-md hidden-lg">
+	   
+	       <div>
+	       		 <div class="icon_mobil_bars">
+	       	 	   <i class="fa fa-bars"></i>
+	       	     </div>
+	       
+
+			    <div class="logo">
+				  <a href="#">
+					  <img class="img-responsive" src="images/logo-ar.png">
+				  </a>
+			    </div><!--End logo-->
+
+			    <div class="icon_mobil_user">
+				   <i class="fa fa-user" aria-hidden="true"></i>
+			    </div>
+	       </div>	
+	</div><!--End main_header_mobil -->
+
+	<!--start menu when click menu icon in mobil screen -->
+
+	  <div class="menu_mobil hidden-md hidden-lg">
+	    <div class="menu_nav">
+	    	<h3>الاعدادات</h3>
+	    	 <ul class="setting_mobil">
+	    	    <li>
+	    	      <span>تغيير اللغة</span>
+	    	       <a href="#" class="sar_flag"><img src="images/sar-flag.png"></a>
+	    	       <a href="#" class="America_flag"><img src="images/United-States-of-America.png" height="35px" width="45px;">
+	    	       </a>
+	    	    </li>
+
+	    	 	<li class="dropdown">
+	    	 	   <span>تغيير العملة</span>
+				   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+				   <div class="coin">ريال</div>
+				   </a>
+				    <ul class="dropdown-menu">
+				   	   <li><a href="#">ريال</a></li>
+					   <li><a href="#">دولار</a></li>
+				   </ul>
+				</li>
+	    	 </ul>
+	    </div><!--End menu_nav-->
+
+	     <div class="menu_nav">
+	    	<h3>روابط مفيدة</h3>
+	    	 <ul class="setting_mobil set_padding">
+	    	    <li><a href="#">الرئيسية</a></li>
+	    	    <li><a href="#">احصل على عروض</a></li>
+	    	    <li><a href="#">اكتشف وجهتك</a></li>
+	    	    <li><a href="#">حمّل برنامج العالية لأجهزة آيفون وآيباد وأندرويد</a></li>
+	    	    <li><a href="#">عن العالية</a></li>
+	    	 </ul>
+	    </div><!--End menu_nav-->
+	  	
+	  </div><!--End menu mobil-->
+	<!--End menu when click menu icon in mobil screen -->
+
+
+     <!--start form menu when click user icon in mobil screen -->
+	<div class="menu_user hidden-md hidden-lg">
+		<h3>الدخول</h3>
+		
+			<form>
+				<div class="col-md-12 set_margin">
+					<input type="text" name="" class="form-control" placeholder="إسم المستخدم *">
+				</div>
+				<div class="col-md-12 set_margin">
+					<input type="text" name="" class="form-control" placeholder="كلمة المرور*">
+				</div>
+				<div class="col-md-12 set_margin">
+					<input type="submit" name="" value="الدخول">
+				</div>
+				<div class="col-md-12 set_margin">
+					<a href="#">تحتاج الى حساب؟ سجل هنا! هل نسيت كلمة المرور؟</a>
+				</div>
+				<div class="col-md-12">
+					<div class="entering_button">
+						<i class="fa fa-facebook"></i> الدخول بحساب الفيسبوك
+					</div>
+				</div>
+			</form>
+		<div class="clearfix"></div>
+	</div>
+	<!--End form when click user icon in mobil screen-->
+</div>
+<!--End Website_wrapper -->
+
+<!--start properties-beautiful-cabin-simple-->
+ <div class="properties-beautiful-cabin-simple">
+ 	  <div class="overlay"></div>
+
+      <div class="container">
+          <div class="row">
+             <div class="col-md-8 right_side">
+                  <h1>فيلا بالمملكة العربية السعودية (مكة المكرمة)</h1>
+                  <div class="group_stars">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                  </div>
+
+                  <div class="cities">
+                    تبوك, جدة, مكة المكرمة, Mariola Street
+                  </div>
+
+                  <span class="number_rate">
+                    4.0
+                  </span>
+                  <p> جيد جداً</p>
+
+              </div><!--end right side-->
+
+
+
+            <div class="col-md-4 left_side">
+                <div class="add_to_favourity">
+                  <i class="fa fa-heart-o"></i>
+                  <span>أضف إلى المفضلة</span>
+                </div>
+
+                <div class="share">
+                  <i class="share_icon"></i>
+                  <span>شارك</span>
+                </div>
+                  
+                  <br>
+               
+                  <a href="" class="btnn">تأكد من التوفر</a>
+                
+
+            </div><!--end left side-->
+
+          </div><!--end row-->
+    </div>
+ </div>
+<!--End properties-beautiful-cabin-simple-->
+
+  <div class="container-fluid content_properties">
+
+        <div class="col-md-8 col-sm-8">
+           <div class="category_details_wrapper">
+             <div class="Property_Details">
+                <i class="detail-header"></i>
+                <span>تفاصيل العقار</span>
+             </div>
+           </div><!--end fisrt white wrapper-->
+
+           <div class="category_details_wrapper second_div">
+             <div class="Property_characteristics">
+                <span>خصائص المنشأة</span>
+             </div>
+           </div><!--end second white wrapper-->
+
+            <div class="category_details_wrapper_thrid">
+               <span class="title">من المهم أن تعلم </span>
+
+               <div class="col-md-12 list_details">
+                  <div class="col-md-3 cancel">الإلغاء : </div>
+                  <div class="col-md-9 line">الضيف يجب أن يلغي الحجز قبل 3 أيام من الوصول أو يدفع 100% من سعر  الليلة اﻻولى..</div>
+               </div>
+
+               <div class="col-md-12 list_details">
+                  <div class="col-md-3 cancel">أطفال وأسر أخرى :</div>
+                  <div class="col-md-9 line">كثير من الترحيب بجميع الأطفال. إقامة مجانية لطفل واحد أصغر من 12 سنة عند  ااستخدام الأسرة الموجودة أسرة أطفال غير متوفرة. يمكن للغرفة أن تستوعب أسرة إضافية وبحد أقصى واحد</div>
+               </div>
+
+
+               <div class="col-md-12 list_details">
+                  <div class="col-md-3 cancel">الحيوانات الأليفة :</div>
+                  <div class="col-md-9 line">عند الطلب</div>
+               </div>
+
+               <div class="col-md-12 list_details">
+                  <div class="col-md-3 cancel">خيارات الدفع :</div>
+                  <div class="col-md-9 line">وسوف نعلمكم الضيوف أن تقبل فقط النقدية.</div>
+               </div>
+
+
+               <div class="clearfix"></div>
+           </div><!--end thrid wrapper-->
+
+
+
+           <div class="category_details_wrapper_four">
+             
+             <div class="col-md-12">
+                <div class="col-md-5 has_calendar calendar_icon">
+                  <i class="fa fa-calendar"></i>    
+                  <input type="text" id="" class="form-control datepicker" placeholder="تاريخ الوصول" value="">
+                </div>
+
+                <div class="col-md-5 has_calendar calendar_icon">
+                  <i class="fa fa-calendar"></i>    
+                  <input type="text" id="" class="form-control datepicker" placeholder="تاريخ المغادره" value="">
+                </div>
+
+                <div class="col-md-2 check_avalability_button">
+                  <input type="submit" class="btn btn-primary" value="تحقق الأن">
+                </div>
+
+             </div>
+
+           </div><!--end category_details_wrapper_four-->
+
+        </div> <!--end col-md-8 & col-sm-8-->
+
+
+        <!--start left col-md-4 & col-sm-4 form_search-->
+
+        <div class="col-md-4 col-sm-4 form_search">
+          <div class="col-md-12">
+           <form>
+               <div class="main_title">
+                 <i class="fa fa-search"> بحث</i>
+               </div>
+
+               <div class="col-md-12">
+               <label class="label_color">الوجهة</label>
+                 <input type="text" class="form-control " name="" placeholder="الدولة أو المدينة أو المكان؟">
+               </div>
+
+               <div class="col-md-12 has_calendar calendar_icon">
+                 <label class="label_color">تاريخ الوصول</label>
+                 <i class="fa fa-calendar"></i>    
+                 <input type="text"  class="form-control datepicker" placeholder="تاريخ الوصول" value="">
+               </div>
+
+               <div class="col-md-12 has_calendar calendar_icon">
+               <label class="label_color">تاريخ المغادره</label>
+                 <i class="fa fa-calendar"></i>
+                 <input type="text" class="form-control datepicker" placeholder="تاريخ المغادرة" value="">
+               </div>
+
+               <div class="col-md-12">
+                 <div class="reason_travel">
+                    <span> مسافر للـ :</span>
+                    <label class="" data-google-track="Click/bb_sb_select/hotel : selected business">
+                        <input class="" type="radio" name="sb_travel_purpose" value="business" checked="">
+                        <span class="">العمل </span>
+                   </label>
+                   <label class="" data-google-track="Click/bb_sb_select/hotel : selected business">
+                        <input class="" type="radio" name="sb_travel_purpose" value="business" checked="">
+                        <span class="">الترفيه </span>
+                    </label>
+
+                    <span class="info-search"><i class="fa fa-info-circle hidden-xs"></i></span>
+                 </div> 
+               </div>
+
+
+
+               <div class="col-md-4 col-xs-4">
+                   <div class="seclect_group">
+                        <label>غرف</label>
+                        <select class="form-control">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                          <option>6</option>
+                          <option>7</option>
+                          <option>8</option>
+                          <option>9</option>
+                          <option>10</option>
+                          <option>11</option>
+                          <option>12</option>
+                          <option>13</option>
+                          <option>14</option>
+                        </select>
+                   </div>
+               </div>
+
+               <div class="col-md-4 col-xs-4">
+                  <div class="seclect_group">
+                        <label>بالغين</label>
+                        <select class="form-control">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                          <option>6</option>
+                          <option>7</option>
+                          <option>8</option>
+                          <option>9</option>
+                          <option>10</option>
+                          <option>11</option>
+                          <option>12</option>
+                          <option>13</option>
+                          <option>14</option>
+                        </select>
+                  </div>
+              </div>
+
+              <div class="col-md-4 col-xs-4">
+                  <div class="seclect_group">
+                      <label>أطفال</label>
+                      <select class="form-control">
+                          <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                      </select>
+                 </div>
+             </div>
+
+             <div class="clearfix"></div>
+
+             <div class="col-md-12 ">
+               <input type="submit" class="search_btn" value="بحث" name="">
+             </div>
+           </form>
+            
+          </div> <!--end col-md-12-->
+             
+        </div> <!-- end left col-md-4 & col-sm-4 form_search-->
+
+        <!---end left col-md-4 col-sm-4 -->
+
+  </div><!--end container fluid-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!--start new section num 6 footer_subscribe -->
+          
+          <div class="footer_subscribe">
+          	<div class="container-fluid">
+          	  <div class="row">
+          		<div class="col-md-6 set_margin">
+          			<h3>الحصول على خصم يصل إلى 50% على الرحلة القادمة</h3>
+          			<span>الآن .. اشترك في قائمتنا البريدية للحصول على الكثير من العروض السرية للمشتركين الكرام</span>
+          		</div>
+          		<div class="col-md-6 text-center">
+          			<form>
+          				<div class="col-md-8 col-sm-6 set_margin">
+          					<input type="text" name="" class="form-control" placeholder="بريدك الإلكتروني">
+          				</div>
+          				<div class="col-md-4 col-sm-6 set_margin">
+          					<input type="submit" name="" value="اشترك">
+          				</div>
+          			</form>
+          		</div>
+          	 </div>
+          	</div>
+          </div>
+<!--end new section num 6-->
+
+<!--start new section num 7 footer links section before last-->
+  
+          <div class="links hidden-xs">
+          	<div class="container">
+          		<div class="row">
+          			<div class="col-md-12">
+          			   <ul class="list-inline">
+          			     <li><a href="#">الاعدادات</a></li>
+          			     <li><a href="#">تعديل الحجز على الانترنت</a></li>
+          			     <li><a href="#">اضافة عقار</a></li>
+          		       </ul>
+          			</div>
+          		</div>
+          	</div>
+          </div>
+<!--End new section num 7 footer links section before last-->
+
+<!--start new section num 8 last footer-->
+
+     <div class="last_footer">
+     	<div class="container">
+     		<div class="row">
+     			<div class="col-md-6 hidden-xs">
+     				<div class="col-md-3 col-sm-3">
+     					<ul>
+     						<li><a href="#">عن العالية</a></li>
+     						<li><a href="#">أسئلة متكررة</a></li>
+     						<li><a href="#"> وظائف</a></li>
+     						<li style="width: 76px;"><a href="#">الشروط والاحكام</a></li>
+     						<li><a href="#">اكتشف وجهتك</a></li>
+     					</ul>
+     				</div>
+
+     				<div class="col-md-3 col-sm-3">
+     					<ul>
+     						<li><a href="#">الطمأنينة</a></li>
+     						<li><a href="#">الطبيعة</a></li>
+     						<li><a href="#">الإسترخاء</a></li>
+     						<li><a href="#">مناظر خلابة</a></li>
+     						<li><a href="#">أكلات</a></li>
+     					</ul>
+     				</div>
+
+     				<div class="col-md-3 col-sm-3">
+     					<ul>
+     						<li><a href="#">إقامة</a></li>
+     						<li><a href="#">سرير و إفطار</a></li>
+     						<li><a href="#">سكن طلابي</a></li>
+     						<li><a href="#">شقة</a></li>
+     						<li><a href="#">فيلا</a></li>
+     					</ul>
+     				</div>
+
+     				<div class="col-md-3 col-sm-3">
+     					<ul>
+     						<li><a href="#">الدمام</a></li>
+     						<li><a href="#">نجران</a></li>
+     						<li><a href="#">بوسطن</a></li>
+     						<li><a href="#">واشطن</a></li>
+     						<li><a href="#">تبوك</a></li>
+     					</ul>
+     				</div>
+     			</div>
+
+     			<div class="col-md-6 text-center">
+     				<div class="col-md-2 col-sm-2 col-xs-2">
+     					<img src="images/logo_footer.png" class="rotate_img">
+     				</div>
+     				<div class="col-md-6 col-sm-8 col-xs-8">
+     					<h3>حمل تطبيق العالية المجاني الأن</h3>
+     					<p>متوفر على أجهزة الأيفون و الأيباد والأندرويد </p>
+     				</div>
+
+     				<div class="col-md-12">
+     					<div class="col-md-6 col-sm-6 set_margin"><a href="#"><img src="images/appstore.png"></a></div>
+     					<div class="col-md-6 col-sm-6"><a href="#"><img src="images/google_play.png"></a></div>
+     				</div>
+     			</div>
+     		</div>
+
+     		<div class="footer_line"></div>
+
+     		<div class="row">
+     			<div class="col-md-12">
+     				<div class="copyright">جميع الحقوق محفوظة لموقع العالية © 2016</div>
+     			</div>
+     		</div>
+     	</div>
+     </div>
+<!--End new section num 8 last footer-->
+
+<!--start button to backtop again -->
+ <a href="#" class="back_top_btn text-center">
+ 	<i class="fa fa-chevron-up"></i>
+ </a>
+<!--End button to backtop again-->
+
+
+
+
+
+	
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.browser.min.js"></script>
+<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+<script type="text/javascript">
+    $(function(){
+      $('.datepicker').datepicker({
+        inline: true,
+        //nextText: '&rarr;',
+        //prevText: '&larr;',
+        showOtherMonths: true,
+        //dateFormat: 'dd MM yy',
+        dayNamesMin: ['س', 'د', 'ن', 'ث', 'ع', 'خ', 'ج'],
+        //showOn: "button",
+        //buttonImage: "img/calendar-blue.png",
+        //buttonImageOnly: true,
+        monthNames: ['يناير','فبراير','مارس','أبريل','مايو','يونيو','يوليو','أغسطس','سبتمبر','أكتوبر','نوفمبر','ديسمبر'],
+
+
+           monthNamesShort: ['يناير','فبراير','مارس','أبريل','مايو','يونيو','يوليو','أغسطس','سبتمبر','أكتوبر','نوفمبر','ديسمبر'],
+
+
+      });
+    });
+  </script>
+
+
+
+</body>
+</html>

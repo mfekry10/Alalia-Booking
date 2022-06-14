@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable = no">
+    <meta charset="utf-8">
+	<title>AlailBooking</title>
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+	<link rel="stylesheet"  href="css/bootstrap-rtl.css">
+	<link rel="stylesheet"  href="css/bootstrap-flipped.css">
+	<link rel="stylesheet"  href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css" media="all">
+	<link rel="stylesheet"  href="css/datepicker.css">
+	<link rel="stylesheet"  href="css/datepickerstyle.css">
+	<link rel="stylesheet"  href="css/style.css">
+
+</head>
+<body>
+<div class="website-wrapper" id="all_wrapper">
+	<div class="container-fluid main_header hidden-xs hidden-sm">
+		<div class="left_logo">
+			<div class="logo">
+				<a href="#">
+					<img class="img-responsive" src="images/logo-ar.png">
+				</a>
+			</div><!--End logo-->
+		</div><!--End left_logo-->
+
+		<div class="right_menu">
+			<ul class="list-inline">
+				<li class="dropdown">
+				   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/ques.png">
+				   </a>
+				    <ul class="dropdown-menu">
+					   <li><a href="add_property.html">اضافة عقار</a></li>
+					   <li><a href="contact.html">إتصل بنا</a></li>
+				    </ul>
+				</li>
+				<li class="dropdown">
+				   <a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="images/sar-flag.png">
+				   </a>
+				   <ul class="dropdown-menu">
+				   	 <li><a href="#"><img src="images/United-States-of-America.png"></a></li>
+				   </ul>
+                  
+				</li>
+				<li class="dropdown">
+				   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ريال
+				   </a>
+				   <ul class="dropdown-menu">
+				   	   <li><a href="#">ريال</a></li>
+					   <li><a href="#">دولار</a></li>
+				   </ul>
+				</li>
+				<li><a href="#"><i class="fa fa-heart"></i> قوائمي</a></li>
+				<li><a href="Discover_your_destination.html"><img src="images/recomded.png"></a></li>
+				<li><a href="#">حجوزاتي</a></li>
+				<li><button>تسجيل عضوية</button></li>
+				<li><button>الدخول</button></li>
+
+			</ul>
+		</div> <!-- End right menu -->
+
+	</div><!--End main_header for large screens-->
+
+	<!--start sub-header under main_header white background-->
+
+	    <div class="add_property hidden-xs hidden-sm">
+			<ul class="list-inline">
+				<li class="main_home"><a href="index.html">الرئيسية</a></li>
+				<li class="active"> > عن العالية</li>
+			</ul>
+		</div>
+	<!--End sub_header under main_header white background -->
+
+	<!--Start main_header_mobil-->
+	<div class="container-fluid main_header_mobil hidden-md hidden-lg">
+	   
+	       <div>
+	       		 <div class="icon_mobil_bars">
+	       	 	   <i class="fa fa-bars"></i>
+	       	     </div>
+	       
+
+			    <div class="logo">
+				  <a href="#">
+					  <img class="img-responsive" src="images/logo-ar.png">
+				  </a>
+			    </div><!--End logo-->
+
+			    <div class="icon_mobil_user">
+				   <i class="fa fa-user" aria-hidden="true"></i>
+			    </div>
+	       </div>	
+	</div><!--End main_header_mobil -->
+
+	<!--start menu when click menu icon in mobil screen -->
+
+	  <div class="menu_mobil hidden-md hidden-lg">
+	    <div class="menu_nav">
+	    	<h3>الاعدادات</h3>
+	    	 <ul class="setting_mobil">
+	    	    <li>
+	    	      <span>تغيير اللغة</span>
+	    	       <a href="#" class="sar_flag"><img src="images/sar-flag.png"></a>
+	    	       <a href="#" class="America_flag"><img src="images/United-States-of-America.png" height="35px" width="45px;">
+	    	       </a>
+	    	    </li>
+
+	    	 	<li class="dropdown">
+	    	 	   <span>تغيير العملة</span>
+				   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+				   <div class="coin">ريال</div>
+				   </a>
+				    <ul class="dropdown-menu">
+				   	   <li><a href="#">ريال</a></li>
+					   <li><a href="#">دولار</a></li>
+				   </ul>
+				</li>
+	    	 </ul>
+	    </div><!--End menu_nav-->
+
+	     <div class="menu_nav">
+	    	<h3>روابط مفيدة</h3>
+	    	 <ul class="setting_mobil set_padding">
+	    	    <li><a href="#">الرئيسية</a></li>
+	    	    <li><a href="#">احصل على عروض</a></li>
+	    	    <li><a href="#">اكتشف وجهتك</a></li>
+	    	    <li><a href="#">حمّل برنامج العالية لأجهزة آيفون وآيباد وأندرويد</a></li>
+	    	    <li><a href="#">عن العالية</a></li>
+	    	 </ul>
+	    </div><!--End menu_nav-->
+	  	
+	  </div><!--End menu mobil-->
+	<!--End menu when click menu icon in mobil screen -->
+
+
+     <!--start form menu when click user icon in mobil screen -->
+	<div class="menu_user hidden-md hidden-lg">
+		<h3>الدخول</h3>
+		
+			<form>
+				<div class="col-md-12 set_margin">
+					<input type="text" name="" class="form-control" placeholder="إسم المستخدم *">
+				</div>
+				<div class="col-md-12 set_margin">
+					<input type="text" name="" class="form-control" placeholder="كلمة المرور*">
+				</div>
+				<div class="col-md-12 set_margin">
+					<input type="submit" name="" value="الدخول">
+				</div>
+				<div class="col-md-12 set_margin">
+					<a href="#">تحتاج الى حساب؟ سجل هنا! هل نسيت كلمة المرور؟</a>
+				</div>
+				<div class="col-md-12">
+					<div class="entering_button">
+						<i class="fa fa-facebook"></i> الدخول بحساب الفيسبوك
+					</div>
+				</div>
+			</form>
+		<div class="clearfix"></div>
+	</div>
+	<!--End form when click user icon in mobil screen-->
+</div>
+<!--End Website_wrapper -->
+
+<!--start contact us-->
+
+<div class="container-fluid newbook">
+
+    <h1>عن العالية</h1>
+    <!--start background-center white-->
+    <div class="center_contact">
+	<div class="row">	
+		<div class="col-md-3">
+			<p><img class="img-responsive" src="images/f-logo.jpg" alt="about-logo" width="320" height="355"></p>
+		</div>
+
+		<div class="col-md-9">
+			<h5>لوريم إيبسوم</h5>
+			<p>لوريم إيبسوم هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني. انتشر بشكل كبير في ستينيّات هذا القرن مع إصدار رقائق “ليتراسيت” البلاستيكية تحوي مقاطع من هذا النص، وعاد لينتشر مرة أخرى مؤخراَ مع ظهور برامج النشر الإلكتروني مثل “ألدوس بايج مايكر”  والتي حوت أيضاً على نسخ من نص لوريم إيبسوم.</p>
+
+			<h5>ما أصله</h5>
+			<p>خلافاَ للإعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً، بل إن له جذور في الأدب اللاتيني الكلاسيكي منذ العام 45 قبل الميلاد، مما يجعله أكثر من 2000 عام في القدم. قام البروفيسور “ريتشارد ماك لينتوك” وهو بروفيسور اللغة اللاتينية في جامعة هامبدن-سيدني في فيرجينيا بالبحث عن أصول كلمة لاتينية غامضة في نص لوريم إيبسوم وهي، وخلال تتبعه لهذه الكلمة في الأدب اللاتيني اكتشف المصدر الغير قابل للشك. فلقد اتضح أن كلمات نص لوريم إيبسوم تأتي من الأقسام 1.10.32 و 1.10.33 من كتاب “حول أقاصي الخير والشر”  للمفكر شيشيرون  والذي كتبه في عام 45 قبل الميلاد. هذا الكتاب هو بمثابة مقالة علمية مطولة في نظرية الأخلاق، وكان له شعبية كبيرة في عصر النهضة. السطر الأول من لوريم إيبسوم  يأتي من سطر في القسم 1.20.32 من هذا الكتاب.</p>
+
+		</div>
+
+		<div class="col-md-12">
+			<p>للمهتمين قمنا بوضع نص لوريم إبسوم القياسي والمُستخدم منذ القرن الخامس عشر في الأسفل. وتم أيضاً توفير الأقسام 1.10.32 و 1.10.33 من “حول أقاصي الخير والشر” لمؤلفه شيشيرون بصيغها الأصلية، مرفقة بالنسخ الإنكليزية لها والتي قام بترجمتها .</p>
+
+			<p>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام “هنا يوجد محتوى نصي، هنا يوجد محتوى نصي” فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال “lorem ipsum” في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث. على مدى السنين ظهرت نسخ جديدة ومختلفة من نص لوريم إيبسوم، أحياناً عن طريق الصدفة، وأحياناً عن عمد كإدخال بعض العبارات الفكاهية إليها.</p>
+		</div>
+
+
+	</div>
+
+	</div><!--end background-center white-->
+</div>
+
+<!--End contact us-->
+
+
+
+
+
+
+
+
+
+<!--start new section num 6 footer_subscribe -->
+          
+          <div class="footer_subscribe">
+          	<div class="container-fluid">
+          	  <div class="row">
+          		<div class="col-md-6 set_margin">
+          			<h3>الحصول على خصم يصل إلى 50% على الرحلة القادمة</h3>
+          			<span>الآن .. اشترك في قائمتنا البريدية للحصول على الكثير من العروض السرية للمشتركين الكرام</span>
+          		</div>
+          		<div class="col-md-6 text-center">
+          			<form>
+          				<div class="col-md-8 col-sm-6 set_margin">
+          					<input type="text" name="" class="form-control" placeholder="بريدك الإلكتروني">
+          				</div>
+          				<div class="col-md-4 col-sm-6 set_margin">
+          					<input type="submit" name="" value="اشترك">
+          				</div>
+          			</form>
+          		</div>
+          	 </div>
+          	</div>
+          </div>
+<!--end new section num 6-->
+
+<!--start new section num 7 footer links section before last-->
+  
+          <div class="links hidden-xs">
+          	<div class="container">
+          		<div class="row">
+          			<div class="col-md-12">
+          			   <ul class="list-inline">
+          			     <li><a href="#">الاعدادات</a></li>
+          			     <li><a href="#">تعديل الحجز على الانترنت</a></li>
+          			     <li><a href="#">اضافة عقار</a></li>
+          		       </ul>
+          			</div>
+          		</div>
+          	</div>
+          </div>
+<!--End new section num 7 footer links section before last-->
+
+<!--start new section num 8 last footer-->
+
+     <div class="last_footer">
+     	<div class="container">
+     		<div class="row">
+     			<div class="col-md-6 hidden-xs">
+     				<div class="col-md-3 col-sm-3">
+     					<ul>
+     						<li><a href="#">عن العالية</a></li>
+     						<li><a href="#">أسئلة متكررة</a></li>
+     						<li><a href="#"> وظائف</a></li>
+     						<li style="width: 76px;"><a href="#">الشروط والاحكام</a></li>
+     						<li><a href="#">عن العالية</a></li>
+     					</ul>
+     				</div>
+
+     				<div class="col-md-3 col-sm-3">
+     					<ul>
+     						<li><a href="#">الطمأنينة</a></li>
+     						<li><a href="#">الطبيعة</a></li>
+     						<li><a href="#">الإسترخاء</a></li>
+     						<li><a href="#">مناظر خلابة</a></li>
+     						<li><a href="#">أكلات</a></li>
+     					</ul>
+     				</div>
+
+     				<div class="col-md-3 col-sm-3">
+     					<ul>
+     						<li><a href="#">إقامة</a></li>
+     						<li><a href="#">سرير و إفطار</a></li>
+     						<li><a href="#">سكن طلابي</a></li>
+     						<li><a href="#">شقة</a></li>
+     						<li><a href="#">فيلا</a></li>
+     					</ul>
+     				</div>
+
+     				<div class="col-md-3 col-sm-3">
+     					<ul>
+     						<li><a href="#">الدمام</a></li>
+     						<li><a href="#">نجران</a></li>
+     						<li><a href="#">بوسطن</a></li>
+     						<li><a href="#">واشطن</a></li>
+     						<li><a href="#">تبوك</a></li>
+     					</ul>
+     				</div>
+     			</div>
+
+     			<div class="col-md-6 text-center">
+     				<div class="col-md-2 col-sm-2 col-xs-2">
+     					<img src="images/logo_footer.png" class="rotate_img">
+     				</div>
+     				<div class="col-md-6 col-sm-8 col-xs-8">
+     					<h3>حمل تطبيق العالية المجاني الأن</h3>
+     					<p>متوفر على أجهزة الأيفون و الأيباد والأندرويد </p>
+     				</div>
+
+     				<div class="col-md-12">
+     					<div class="col-md-6 col-sm-6 set_margin"><a href="#"><img src="images/appstore.png"></a></div>
+     					<div class="col-md-6 col-sm-6"><a href="#"><img src="images/google_play.png"></a></div>
+     				</div>
+     			</div>
+     		</div>
+
+     		<div class="footer_line"></div>
+
+     		<div class="row">
+     			<div class="col-md-12">
+     				<div class="copyright">جميع الحقوق محفوظة لموقع العالية © 2016</div>
+     			</div>
+     		</div>
+     	</div>
+     </div>
+<!--End new section num 8 last footer-->
+
+<!--start button to backtop again -->
+ <a href="#" class="back_top_btn text-center">
+ 	<i class="fa fa-chevron-up"></i>
+ </a>
+<!--End button to backtop again-->
+
+
+
+
+
+	
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.browser.min.js"></script>
+<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+
+
+</body>
+</html>
